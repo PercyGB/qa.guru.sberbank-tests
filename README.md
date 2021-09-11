@@ -2,15 +2,15 @@
 
 ### Используемые технологии и инструменыт:
 <p align="left">
-<img height="40" width="40" src="src/test/resources/images/java-logo.svg">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/1cd5ac320c63eada404ddab3cfe71b4fbb5e73b0/svg/gradle-logo.svg" alt="gradle">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/1cd5ac320c63eada404ddab3cfe71b4fbb5e73b0/svg/git-logo.svg" alt="git">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/1cd5ac320c63eada404ddab3cfe71b4fbb5e73b0/svg/junit5-logo.svg" alt="junit5">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/3294e25e72c2949bd7027cd3d297b619dae42719/svg/selenide-logo.svg" alt="selenide">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/1cd5ac320c63eada404ddab3cfe71b4fbb5e73b0/svg/jenkins-logo.svg" alt="jenkins">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/88f137e2bed8e2b9aa3048dd41d68c6adb4a0522/svg/selenoid-logo.svg" alt="selenoid">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/54b7b71e5ab15cea6bc453babf179c93c8b136b2/svg/allure-Report-logo.svg" alt="allure">
-<img height="40" width="40" src="https://raw.githubusercontent.com/r2ff/r2ff/b40f0e55529c51f4234b8c12c6b769ae6d4b9f9c/svg/allure-ee-logo.svg" alt="allure-testops">
+<img height="40" width="40" src="src/test/resources/images/java-logo.svg" alt=""java">
+<img height="40" width="40" src="src/test/resources/images/gradle-logo.svg" alt="gradle">
+<img height="40" width="40" src="src/test/resources/images/git-logo.svg" alt="git">
+<img height="40" width="40" src="src/test/resources/images/junit5-logo.svg" alt="junit5">
+<img height="40" width="40" src="src/test/resources/images/selenide-logo.svg" alt="selenide">
+<img height="40" width="40" src="src/test/resources/images/jenkins-logo.svg" alt="jenkins">
+<img height="40" width="40" src="src/test/resources/images/selenoid-logo.svg" alt="selenoid">
+<img height="40" width="40" src="src/test/resources/images/allure-Report-logo.svg" alt="allure">
+<img height="40" width="40" src="src/test/resources/images/allure-ee-logo.svg" alt="allure-testops">
 </p>
 
 ### Реализованы следующие UI проверки:
