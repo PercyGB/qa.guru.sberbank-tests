@@ -2,7 +2,7 @@
 
 ### Используемые технологии и инструменыт:
 <p align="left">
-<img height="40" width="40" src="src/test/resources/images/java-logo.svg" alt=""java">
+<img height="40" width="40" src="src/test/resources/images/java-logo.svg" alt="java">
 <img height="40" width="40" src="src/test/resources/images/gradle-logo.svg" alt="gradle">
 <img height="40" width="40" src="src/test/resources/images/git-logo.svg" alt="git">
 <img height="40" width="40" src="src/test/resources/images/junit5-logo.svg" alt="junit5">
