@@ -2,15 +2,15 @@
 
 ### Используемые технологии и инструменыт:
 <p align="left">
-<img height="40" width="40" src="src/test/resources/images/java-logo.svg" alt="java">
-<img height="40" width="40" src="src/test/resources/images/gradle-logo.svg" alt="gradle">
-<img height="40" width="40" src="src/test/resources/images/git-logo.svg" alt="git">
-<img height="40" width="40" src="src/test/resources/images/junit5-logo.svg" alt="junit5">
-<img height="40" width="40" src="src/test/resources/images/selenide-logo.svg" alt="selenide">
-<img height="40" width="40" src="src/test/resources/images/jenkins-logo.svg" alt="jenkins">
-<img height="40" width="40" src="src/test/resources/images/selenoid-logo.svg" alt="selenoid">
-<img height="40" width="40" src="src/test/resources/images/allure-Report-logo.svg" alt="allure">
-<img height="40" width="40" src="src/test/resources/images/allure-ee-logo.svg" alt="allure-testops">
+<img height="40" width="40" src="images/java-logo.svg" alt="java">
+<img height="40" width="40" src="images/gradle-logo.svg" alt="gradle">
+<img height="40" width="40" src="images/git-logo.svg" alt="git">
+<img height="40" width="40" src="images/junit5-logo.svg" alt="junit5">
+<img height="40" width="40" src="images/selenide-logo.svg" alt="selenide">
+<img height="40" width="40" src="images/jenkins-logo.svg" alt="jenkins">
+<img height="40" width="40" src="images/selenoid-logo.svg" alt="selenoid">
+<img height="40" width="40" src="images/allure-Report-logo.svg" alt="allure">
+<img height="40" width="40" src="images/allure-ee-logo.svg" alt="allure-testops">
 </p>
 
 ### Реализованы следующие UI проверки:
@@ -21,6 +21,9 @@
 - [X] "Проверка работы ссылки "Все новости" 
 - [X] Проверка заголовка страницы
 - [X] Проверка консоли браузера на наличие ошибок
+
+### В качестве CI/CD используется Jenkins </br>
+![jenkins-build](""")
 
 Run tests with filled remote.properties:
 ```bash
