@@ -24,6 +24,8 @@
 
 ### Запуск тестов с использованием Jenkins </br>
 ![image](images/jenkins-overview.png)
+#### Параметры, необходимые для запуска:
+![image](images/jenkins-params.png)
 
 ### Allure отчет для отображения результатов тестирования </br>
 #### Общая информация
@@ -38,26 +40,22 @@
 ![image](images/allure-testops-dashboard.png)
 ![image](images/allure-testops-testcases.png)
 
-Run tests with filled remote.properties:
+### Уведомления в telegram о результатах теста </br>
+![image](images/telegram-notification.png)
+
+Запуск тестов с заполненным remote.properties:
 ```bash
 gradle clean test
 ```
 
-Run tests with not filled remote.properties:
+Запуск тестов без заполненного remote.properties:
 ```bash
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-Serve report:
+Сформировать allure отчет:
 ```bash
 allure serve build/allure-results
-```
-
-
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
 ```
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
