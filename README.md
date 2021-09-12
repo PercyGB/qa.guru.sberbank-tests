@@ -23,7 +23,7 @@
 - [X] Проверка консоли браузера на наличие ошибок
 
 ### Запуск тестов с использованием Jenkins </br>
-![jenkins-build]("https://jenkins.autotests.cloud/job/c06-liakuz-lesson12/")
+![image](images/jenkins-overview.png)
 
 ### Allure отчет для отображения результатов тестирования </br>
 #### Общая информация
@@ -32,10 +32,11 @@
 ![image](images/allure-report-behavior.png)
 
 ### Пример запуска теста на Selenoid </br>
-
 ![video](https://github.com/PercyGB/qa.guru.sberbank-tests/blob/master/images/selenoid-video.gif)
 
-
+### Интеграция с Allure TestOps и Jira </br>
+![image](images/allure-testops-dashboard.png)
+![image](images/allure-testops-testcases.png)
 
 Run tests with filled remote.properties:
 ```bash
