@@ -27,9 +27,9 @@
 
 ### Allure отчет для отображения результатов тестирования </br>
 #### Общая информация
-![image](images/AllureRep_Behavior.png)
-#### Список тестов
-![image](images/AllureRep_Behavior.png)
+![image](images/allure-report-overview.png)
+#### Список тестов c описанием шагов и визуализацией результатов
+![image](images/allure-report-behavior.png)
 
 Run tests with filled remote.properties:
 ```bash
