@@ -25,6 +25,12 @@
 ### Запуск тестов с использованием Jenkins </br>
 ![jenkins-build]("https://jenkins.autotests.cloud/job/c06-liakuz-lesson12/")
 
+### Allure отчет для отображения результатов тестирования </br>
+#### Общая информация
+![image](images/AllureRep_Behavior.png)
+#### Список тестов
+![image](images/AllureRep_Behavior.png)
+
 Run tests with filled remote.properties:
 ```bash
 gradle clean test

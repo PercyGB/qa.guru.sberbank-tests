@@ -16,8 +16,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.ParameterizedTest.*;
 
+// "https://jenkins.autotests.cloud/job/c06-liakuz-lesson12/"
 
-public class GeneratedTests extends TestBase {
+public class SberBankTests extends TestBase {
 
     WebSteps steps = new WebSteps();
 
