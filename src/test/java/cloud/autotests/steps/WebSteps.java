@@ -12,11 +12,10 @@ import static io.qameta.allure.Allure.step;
 
 public class WebSteps {
 
-    private final static String URL = "https://www.sberbank.ru/ru/person";
 
-    @Step("Открываем главную страницу {url}")
+    @Step("Открываем главную страницу https://www.sberbank.ru/ru/person")
     public void openMainPage(){
-        open(URL);
+        open("https://www.sberbank.ru/ru/person");
     }
 
     @Step("Переходим к блоку \"Калькулятор\"")
