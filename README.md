@@ -33,7 +33,7 @@
 
 ### Пример запуска теста на Selenoid </br>
 
-![video](https://github.com/PercyGB/qa.guru.sberbank-tests/blob/master/images/selenoid-video.mp4)
+![video](https://github.com/PercyGB/qa.guru.sberbank-tests/blob/master/images/selenoid-video.gif)
 
 
 
