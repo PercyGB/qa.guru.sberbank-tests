@@ -31,6 +31,12 @@
 #### Список тестов c описанием шагов и визуализацией результатов
 ![image](images/allure-report-behavior.png)
 
+### Пример запуска теста на Selenoid </br>
+
+![video](https://github.com/PercyGB/qa.guru.sberbank-tests/blob/master/images/selenoid-video.mp4)
+
+
+
 Run tests with filled remote.properties:
 ```bash
 gradle clean test
