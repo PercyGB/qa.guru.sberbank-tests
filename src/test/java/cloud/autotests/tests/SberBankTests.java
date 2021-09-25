@@ -6,6 +6,7 @@ import cloud.autotests.helpers.DriverUtils;
 import cloud.autotests.steps.WebSteps;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Issue;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

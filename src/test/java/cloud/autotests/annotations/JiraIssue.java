@@ -1,7 +1,6 @@
 package cloud.autotests.annotations;
 
 import io.qameta.allure.LabelAnnotation;
-
 import java.lang.annotation.*;
 
 
