@@ -44,7 +44,7 @@
 ![image](images/allure-testops-team.png)
 #### Тест-кейсы
 ![image](images/allure-testops-test-types.png)
-![image](images/allure-testops-visualizaton.png)
+![image](images/allure-testops-visualization.png)
 
 ### Интеграция с Jira </br>
 ![image](images/allure-testops-issue.png)
