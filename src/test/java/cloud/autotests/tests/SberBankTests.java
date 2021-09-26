@@ -4,9 +4,7 @@ import cloud.autotests.annotations.Layer;
 import cloud.autotests.annotations.Microservice;
 import cloud.autotests.helpers.DriverUtils;
 import cloud.autotests.steps.WebSteps;
-import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
-import io.qameta.allure.Issue;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -22,7 +20,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.ParameterizedTest.*;
 
-// "https://jenkins.autotests.cloud/job/c06-liakuz-lesson12/"
 
 @Layer("web")
 public class SberBankTests extends TestBase {
@@ -66,7 +63,7 @@ public class SberBankTests extends TestBase {
     @DisplayName("Проверка мининимального значения величины вклада")
     @JiraIssues({@JiraIssue("HOM-236")})
     @Microservice("Deposit")
-    @Owner("luznetsoval")
+    @Owner("kuznetsoval")
     void minValueOfDepositAmountTest(){
 
         steps.openMainPage();
@@ -87,7 +84,7 @@ public class SberBankTests extends TestBase {
     @CsvSource({"100000, 3 401,91", "300000, 10 205,74", "500000, 17 783,46"})
     @JiraIssues({@JiraIssue("HOM-236")})
     @Microservice("Deposit")
-    @Owner("luznetsoval")
+    @Owner("kuznetsoval")
     void depositIncomeValueTest(String depositAmount,
                                 String depositIncome) {
 
@@ -104,7 +101,7 @@ public class SberBankTests extends TestBase {
     @Feature("Калькулятор вкладов")
     @JiraIssues({@JiraIssue("HOM-236")})
     @Microservice("Deposit")
-    @Owner("luznetsoval")
+    @Owner("kuznetsoval")
     void depositRateValueTests(String depositAmount,
                                String depositRate) {
         steps.openMainPage();

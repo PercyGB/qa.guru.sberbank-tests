@@ -1,5 +1,6 @@
 package cloud.autotests.helpers;
 
+import cloud.autotests.config.Credentials;
 import cloud.autotests.config.Project;
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -8,13 +9,14 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.HashMap;
 import java.util.Map;
 
+import static java.lang.String.format;
+
 public class DriverSettings {
 
     public static void configure() {
         Configuration.browser = Project.config.browser();
         Configuration.browserVersion = Project.config.browserVersion();
         Configuration.browserSize = Project.config.browserSize();
-//        Configuration.baseUrl = App.config.webUrl();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -34,7 +36,11 @@ public class DriverSettings {
         if (Project.isRemoteWebDriver()) {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
-            Configuration.remote = Project.config.remoteDriverUrl();
+            Configuration.remote = format("https://%s:%s@%s",
+                    Credentials.credentials.login(),
+                    Credentials.credentials.password(),
+                    Project.config.remoteDriverUrl());
+    //        Configuration.remote = Project.config.remoteDriverUrl();
         }
 
         capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
