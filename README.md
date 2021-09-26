@@ -12,6 +12,7 @@
 <img height="40" width="40" src="images/selenoid-logo.svg" alt="selenoid">
 <img height="40" width="40" src="images/allure-Report-logo.svg" alt="allure">
 <img height="40" width="40" src="images/allure-ee-logo.svg" alt="allure-testops">
+<img height="40" width="40" src="images/jira-logo.svg" alt="jira">
 </p>
 
 ### Реализованы следующие UI проверки:
