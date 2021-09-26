@@ -65,7 +65,6 @@ public class SberBankTests extends TestBase {
     @Microservice("Deposit")
     @Owner("kuznetsoval")
     void minValueOfDepositAmountTest(){
-
         steps.openMainPage();
         steps.navigateToCreditAndDepositCalc();
         steps.switchToCalcTab("Вклад");
