@@ -8,24 +8,22 @@ import static com.codeborne.selenide.Selectors.byTagName;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static io.qameta.allure.Allure.step;
+
 
 public class WebSteps {
-
-
-    @Step("Открываем главную страницу https://www.sberbank.ru/ru/person")
+    @Step("Открываем главную страницу /ru/person")
     public void openMainPage(){
         open("https://www.sberbank.ru/ru/person");
     }
 
     @Step("Переходим к блоку \"Калькулятор\"")
     public void navigateToCreditAndDepositCalc() {
-            $("#creditAndDepositCalc").scrollIntoView(true);
+        $("#creditAndDepositCalc").scrollIntoView(true);
     }
 
     @Step("Переходим на вкладку \"{calcTabName}\"")
     public void switchToCalcTab(String calcTabName){
-            $(".static-calculator__buttons").$(byText(calcTabName)).click();
+        $(".static-calculator__buttons").$(byText(calcTabName)).click();
     }
 
     @Step("Устанавливаем сумму вклада, равную {depositValue}")

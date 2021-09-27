@@ -1,18 +1,19 @@
 # Проект по автоматизации тестирования ресурса "Частным клиентам — СберБанк" (https://www.sberbank.ru/ru/person)
 
-### Используемые технологии и инструменыт:
+### Используемые технологии и инструменты:
 <p align="left">
 <img height="40" width="40" src="images/java-logo.svg" alt="java">
+<img height="40" width="40" src="images/junit5-logo.svg" alt="junit5">
+<img height="40" width="40" src="images/selenide-logo.svg" alt="selenide">
 <img height="40" width="40" src="images/gradle-logo.svg" alt="gradle">
 <img height="40" width="40" src="images/IDEA-logo.svg" alt="IDEA">
 <img height="40" width="40" src="images/git-logo.svg" alt="git">
-<img height="40" width="40" src="images/junit5-logo.svg" alt="junit5">
-<img height="40" width="40" src="images/selenide-logo.svg" alt="selenide">
 <img height="40" width="40" src="images/jenkins-logo.svg" alt="jenkins">
 <img height="40" width="40" src="images/selenoid-logo.svg" alt="selenoid">
 <img height="40" width="40" src="images/allure-Report-logo.svg" alt="allure">
 <img height="40" width="40" src="images/allure-ee-logo.svg" alt="allure-testops">
 <img height="40" width="40" src="images/jira-logo.svg" alt="jira">
+<img height="40" width="40" src="images/telegram-logo.png" alt="telegram">
 </p>
 
 ### Реализованы следующие UI проверки:

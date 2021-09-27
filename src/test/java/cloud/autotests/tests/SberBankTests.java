@@ -14,10 +14,10 @@ import org.junit.jupiter.params.provider.CsvSource;
 import cloud.autotests.annotations.JiraIssue;
 import cloud.autotests.annotations.JiraIssues;
 
+import static com.codeborne.selenide.Condition.value;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.ParameterizedTest.*;
 
 
@@ -71,8 +71,7 @@ public class SberBankTests extends TestBase {
         steps.setDepositAmount("999");
 
         step("Проверяем, что сумма вклада равна 1000", () -> {
-            assertEquals( "1 000", $("[name='depositSum']").getAttribute("value")
-                    .toString());
+            $("[name='depositSum']").shouldHave(value("1 000"));
         });
     }
 
@@ -84,9 +83,7 @@ public class SberBankTests extends TestBase {
     @JiraIssues({@JiraIssue("HOM-236")})
     @Microservice("Deposit")
     @Owner("kuznetsoval")
-    void depositIncomeValueTest(String depositAmount,
-                                String depositIncome) {
-
+    void depositIncomeValueTest(String depositAmount, String depositIncome) {
         steps.openMainPage();
         steps.navigateToCreditAndDepositCalc();
         steps.switchToCalcTab("Вклад");
@@ -101,8 +98,7 @@ public class SberBankTests extends TestBase {
     @JiraIssues({@JiraIssue("HOM-236")})
     @Microservice("Deposit")
     @Owner("kuznetsoval")
-    void depositRateValueTests(String depositAmount,
-                               String depositRate) {
+    void depositRateValueTests(String depositAmount, String depositRate) {
         steps.openMainPage();
         steps.navigateToCreditAndDepositCalc();
         steps.switchToCalcTab("Вклад");
