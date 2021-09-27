@@ -13,7 +13,6 @@
 <img height="40" width="40" src="images/allure-Report-logo.svg" alt="allure">
 <img height="40" width="40" src="images/allure-ee-logo.svg" alt="allure-testops">
 <img height="40" width="40" src="images/jira-logo.svg" alt="jira">
-<img height="40" width="40" src="images/telegram-logo.png" alt="telegram">
 </p>
 
 ### Реализованы следующие UI проверки:
